@@ -1,0 +1,31 @@
+.cardbox {
+    text-align: center;
+    background-color: #5754ff;
+    display: flex-box;
+    align-content: center;
+    border-radius: 0.25rem;
+    padding: 2em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: block;
+    box-shadow:1px 1px 6px #f820c296;
+    font-size: 1.2rem;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.cardbox:hover{
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+@media  screen and (min-width: 750px) {
+    .cardbox{
+        display: inline-block;
+        width: 37%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 2rem;
+        
+    }
+}

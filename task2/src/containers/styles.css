@@ -1,0 +1,15 @@
+.app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+  margin-bottom: 0;
+}
+
+.loaddisplay{
+  display: block;
+  
+}
