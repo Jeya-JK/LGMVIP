@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>Pizza Order</title>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <style>
+            h2{
+                text-align: center;
+                font-variant: small-caps;
+                color: orangered;
+            }
+            body{
+                background-image: url("https://b.zmtcdn.com/data/pictures/6/111026/7398da37ab73c4c7cb16ac860e577369.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*");
+                width: 100%;height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            form{
+                text-align: center;
+                font-variant: small-caps;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: larger;
+                color:rgb(255, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <h2><b>Pizza Order</b></h2>
+        <br>
+        <br>
+        <form>
+            <label>Customer Name</label><br>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label>Phone Number</label><br>
+            <input type="Phone" placeholder="Enter Your Phone on"><br><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter Your Email"><br><br>
+            <label>Menu</label><br><br>
+            <label>Drinks</label><br><br>
+            <select>
+                <option value=""></option>
+                <option value="Pepsi - &#8377 49">Pepsi - &#8377 49</option>
+                <option value="Coca Cola - &#8377 49">Coca cola - &#8377 49</option>
+                <option value="Sprite - &#8377 49">Sprite - &#8377 49</option>
+                <option value="Fanta - &#8377 49">Fanta - &#8377 49</option>
+            </select><br><br>
+            <label>Veg pizza</label><br><br>
+            <select>
+                <option value=""></option>
+                <option value="Margherita - &#8377 99">Margherite - &#8377 165</option>
+                <option value="Cheese&Corn - &#8377 165">Cheese&Corn - &#8377 165</option>
+                <option value="Double Cheese Margherita - &#8377 165">Double Cheese Margherita - &#8377 199</option>
+                <option value="Peppy Paneer - &#8377 165">Peppy Paneer - &#8377 199</option>
+            </select><br><br>
+            <label> Veg Special Combo</label><br><br>
+            <select>
+                <option value=""></option>
+                <option value="Peppy Paneer + 4 Piece Garlic Bread + Soft Drink - &#8377 599">Peppy Paneer + 4 Piece Garlic Bread + Soft Drink - &#8377 599</option>
+                <option value="Margherite + Cheese&Corn + Double Cheese Margherita + Peppy Paneer - &#8377 699">Margherite + Cheese&Corn + Double Cheese Margherita + Peppy Paneer - &#8377 699</option>
+            </select><br><br>
+            <label>NON-Veg Pizza</label><br><br>
+            <select>
+                <option value=""></option>
+                <option value="Pepper Barbecue Chicken - &#8377 165">Pepper Barbecue Chicken - &#8377 175</option>
+                <option value="Chicken Sausage - &#8377 165">Chicken Sausage - &#8377 199</option>
+                <option value="Peri-Peri Chicken - &#8377 205">Peri-Peri Chicken - &#8377 249</option>
+                <option value="Chicken Tikka - &#8377 235">Chicken Tikka - &#8377 249</option>
+            </select><br><br>
+            <label>NON-Veg</label><br>
+            <select>
+                <option value=""></option>
+                <option value="Pepper Barbecue Chicken + Chicken Sausage + Peri-Peri Chicken + Chicken Tikka - &#8377 999">Pepper Barbecue Chicken + Chicken Sausage + Peri-Peri Chicken + Chicken Tikka - &#8377 999</option>
+                <option value="2 VEG+ 2 NON-VEGCheese&Corn + Peppy Paneer + Chicken Sausage + Peri-Peri Chicken - &#8377 749">2 VEG+ 2 NON-VEG-(Cheese&Corn + Peppy Paneer + Chicken Sausage + Peri-Peri Chicken) - &#8377 749</option>
+            </select><br><br>
+            <label>Payment Method</label><br>
+            <input type="radio" name="eligible">Cash On Delvery
+            <input type="radio" name="eligible">Net Banking
+            <input type="radio" name="eligible">Credit Card & Debit Card<br><br>
+            <input type="submit" onclick="alert('successfully completed!!!')">
+        </form>
+    </body>
+</htmL>
